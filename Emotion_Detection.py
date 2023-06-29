@@ -8,7 +8,7 @@ classifier = load_model('./Models/model_v_47.hdf5')
 class_labels = {0: 'Angry', 1: 'Disgust', 2: 'Fear', 3: 'Happy', 4: 'Neutral', 5: 'Sad', 6: 'Surprise'}
 
 # Load the image
-image_path = r'C:\Users\SubZero\Documents\GitHub\Face_And_Emotion_Detection\Test_Images\e4.jpeg'
+image_path = r'C:\Users\SubZero\Documents\GitHub\Face_And_Emotion_Detection\Test_Images\e1.jpeg'
 img = cv2.imread(image_path)
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
