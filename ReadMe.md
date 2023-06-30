@@ -25,6 +25,7 @@ This Python program detects the location of a face in an input image or frame an
 1. In the Python script `Emotion_Detection.py`, set the `image_path` variable to the path of the input image or frame you want to analyze.
 
 2. Run the Python script using the following command:
+         python Emotion_Detection.py
 
 
 3. Download the pre-trained Haar cascade classifier XML file for face detection from the OpenCV GitHub repository. Place the XML file in the `Harcascade` directory.
@@ -35,7 +36,7 @@ This Python program detects the location of a face in an input image or frame an
 
 1. In the Python script `Emotion_Detection.py`, set the `image_path` variable to the path of the input image or frame you want to analyze.
 
-2. Run the Python script using the following command:
+2. Run the Python script using the following command: 
 
 3. The program will load the input image, detect faces using the Haar cascade classifier, draw bounding boxes around the faces, and classify the emotions on the faces.
 
