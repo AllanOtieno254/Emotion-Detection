@@ -14,6 +14,12 @@ This Python program detects the location of a face in an input image or frame an
 1. Clone or download the project repository from [GitHub](https://github.com/TheODDYSEY/Emotion-Detect-OpenCV.git).
 
 2. Install the required libraries using the following command:
+ 
+ pip install opencv-python
+ pip install tensorflow
+pip install keras
+
+
 
 
 3. Download the pre-trained Haar cascade classifier XML file for face detection from the OpenCV GitHub repository. Place the XML file in the `Harcascade` directory.
@@ -25,6 +31,7 @@ This Python program detects the location of a face in an input image or frame an
 1. In the Python script `Emotion_Detection.py`, set the `image_path` variable to the path of the input image or frame you want to analyze.
 
 2. Run the Python script using the following command:
+
          python Emotion_Detection.py
 
 
