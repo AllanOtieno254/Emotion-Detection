@@ -16,7 +16,10 @@ This Python program detects the location of a face in an input image or frame an
 2. Install the required libraries using the following command:
  
  pip install opencv-python
+
  pip install tensorflow
+
+
 pip install keras
 
 
